@@ -29,6 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.myphoto{
+	max-width: 20vmin;
+	height: auto;
+	border: 3px solid rgb(255, 255, 255);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
 body {
 	line-height: 1;
 }
