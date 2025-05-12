@@ -30,8 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .myphoto{
-	max-width: calc(10vw + 1vmin);
-	height: auto;
+	width: calc(10vw + 1vmin);
+	height: calc(10vw + 1vmin);
 	border: 1vmin solid rgb(255, 255, 255);
     border-radius:50%;
     -moz-border-radius:50%;
