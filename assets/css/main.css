@@ -24,8 +24,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .myphoto{
-	width: calc(10vw + 1vmin);
-	height: calc(10vw + 1vmin);
+	width: calc(10vw + 1px );
+	height: calc(10vw + 1px);
 	border: 1vmin solid rgb(255, 255, 255);
     border-radius:50%;
     -moz-border-radius:50%;
