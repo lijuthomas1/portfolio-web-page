@@ -31,11 +31,23 @@ footer, header, hgroup, menu, nav, section {
 
 .myphoto{
 	max-width: 20vmin;
-	height: 20vmin;
+	height: auto;
 	border: 1vmin solid rgb(255, 255, 255);
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
+}
+
+@media screen and (min-width: 400px) {
+ .myphoto{
+	max-width: 30vmin;
+ }
+}
+
+@media screen and (min-width: 800px) {
+  .myphoto{
+	max-width: 20vmin;
+ }
 }
 
 body {
