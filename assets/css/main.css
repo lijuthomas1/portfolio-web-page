@@ -41,12 +41,14 @@ footer, header, hgroup, menu, nav, section {
 @media screen and (min-width: 400px) {
  .myphoto{
 	max-width: 30vmin;
+	height: auto;
  }
 }
 
 @media screen and (min-width: 800px) {
   .myphoto{
 	max-width: 20vmin;
+	height: auto;
  }
 }
 
