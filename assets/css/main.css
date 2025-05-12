@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .myphoto{
-	max-width: 20vmin;
+	max-width: calc(10vw + 1vmin);
 	height: auto;
 	border: 1vmin solid rgb(255, 255, 255);
     border-radius:50%;
@@ -38,19 +38,6 @@ footer, header, hgroup, menu, nav, section {
     -webkit-border-radius:50%;
 }
 
-@media screen and (min-width: 400px) {
- .myphoto{
-	max-width: 30vmin;
-	height: auto;
- }
-}
-
-@media screen and (min-width: 800px) {
-  .myphoto{
-	max-width: 20vmin;
-	height: auto;
- }
-}
 
 body {
 	line-height: 1;
